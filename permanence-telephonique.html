@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+  body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #45a049;
+}
+
+/* Additional Styles for Checkboxes */
+.contact-form input[type="checkbox"] {
+  margin-top: 8px;
+}
+
+/* Additional Styles for Select */
+.contact-form select {
+  margin-bottom: 16px;
+} 
+.home-button {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #333;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.home-button:hover {
+  background-color: #ddd;
+}
+</style>
+  <title>Permanence Téléphonique</title>
+</head>
+<body>
+
+  <header>
+    <h1>Permanence Téléphonique</h1>
+  </header>
+
+  <div class="form-container">
+    <form action="#" method="post" class="contact-form">
+      <label for="nom">Nom:</label>
+      <input type="text" id="nom" name="nom" required>
+
+      <label for="prenom">Prénom:</label>
+      <input type="text" id="prenom" name="prenom" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="telephone">Téléphone:</label>
+      <input type="tel" id="telephone" name="telephone" required>
+
+      <label for="sujet">Sujet:</label>
+      <input type="text" id="sujet" name="sujet" required>
+
+      <label for="message">Votre Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      
+      
+
+      
+
+      <button type="submit" class="send-button">Envoyer</button>
+      <!-- Button to navigate back to home -->
+    <a href="index.html" class="home-button">Retour à l'accueil</a>
+</div>
+    </form>
+  </div>
+
+</body>
+</html>
